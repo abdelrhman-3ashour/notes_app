@@ -9,6 +9,6 @@ class notesapp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: ThemeData.dark(), home: notesapp());
+    return MaterialApp(home: notesapp());
   }
 }
