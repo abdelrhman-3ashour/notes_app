@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:np/widgets/constents.dart';
 import 'package:np/widgets/coustom_text_filed.dart';
 import 'package:np/widgets/cuustom_button.dart';
 

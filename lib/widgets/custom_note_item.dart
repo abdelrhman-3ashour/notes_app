@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:np/widgets/Edit_Note_Viewbody.dart';
+import 'package:np/views/edit_note_view.dart';
 
 class CustomNoteItem extends StatelessWidget {
   const CustomNoteItem({super.key});
@@ -12,7 +12,7 @@ class CustomNoteItem extends StatelessWidget {
           context,
           MaterialPageRoute(
             builder: (context) {
-              return EditNoteViewbody();
+              return EditNoteView();
             },
           ),
         );
